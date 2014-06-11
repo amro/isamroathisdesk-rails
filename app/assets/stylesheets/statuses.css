@@ -1,0 +1,29 @@
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 22em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+#content {
+    margin: 100px;
+}
+
+@media screen and (max-width:639px) {
+    #content {
+        margin: 5px;
+    }
+    
+    h1 {
+        font-size: 8em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+}
